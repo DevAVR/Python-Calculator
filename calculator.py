@@ -10,7 +10,6 @@ def insert_text(text):
         text_field.set("")
     text_field.set(text_field.get() + text)
 
-
 def back_text():
     """
     A Funtion for Backspace Funtionality.
@@ -19,13 +18,11 @@ def back_text():
     if text_field.get() == "":
         text_field.set("0")
 
-
 def clear_text():
     """
     A Funtion for Clearing Input Field.
     """
     text_field.set("0")
-
 
 def calculate():
     """
